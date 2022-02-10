@@ -3,18 +3,26 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import React from 'react';
+import Sound from 'react-sound'
 
 export default function Home() {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        
+
+      
       </Head>
       <section className={utilStyles.headingMd}>
+    
+     
+      {/* <Sound url="music.mp3" playStatus={Sound.status.PLAYING}/> */}
         <p >im a code monkey ooh ooh aa aa</p>
         <a href="https://github.com/abdin20">Check out my Github</a>
 
-
+ 
       </section>
       <section>
         <br></br>
@@ -31,7 +39,11 @@ export default function Home() {
 
         />
         </a>
-        </Link>
+        </Link> 
+
+        <iframe src="https://www.youtube.com/embed/RAl_rc0GYO8?autoplay=1" allow='autoplay'></iframe>
+        
+
       </section>
     </Layout>
   )
