@@ -6,6 +6,10 @@
     "start": "next start -p 3001"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.4.1",
+    "@mui/system": "^5.4.1",
     "next": "latest",
     "next-themes": "^0.0.15",
     "react": "^17.0.2",

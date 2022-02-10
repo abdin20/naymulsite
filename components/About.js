@@ -17,7 +17,7 @@ const About = () => {
                         </p>
                  
                         <p className="mt-6 text-gray-800 dark:text-white">
-                            Currently, I am actively developing websites with NextJS, my music discord bot, and machine learning using Google Cloud Services.
+                            Currently, I am actively developing websites with NextJS, a music discord bot, and developing machine learning skills using Google Cloud Services.
                         </p>
 
                         <p></p>
