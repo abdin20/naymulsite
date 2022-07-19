@@ -13,7 +13,9 @@ const About = () => {
                     <br></br>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
-                            I am an aspiring software engineer student currently studying at Western University.
+                            I am a Full Stack Developer working at{' '}
+                            <a  className="underline" href="https://wowa.ca/">Wowa Leads</a>
+                             .
                         </p>
                  
                         <p className="mt-6 text-gray-800 dark:text-white">

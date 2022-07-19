@@ -14,13 +14,13 @@ const Navigation = () => {
                     </a>
                 </Link>
                 <div className="space-x-5 container px-4 mx-auto lg:max-w-4xl flex items-center justify-end">
-                <Link href="/">
+                {/* <Link href="/about-me">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
                         About Me
                     </a>
-                </Link> 
+                </Link>  */}
                 <Link href="/projects">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
