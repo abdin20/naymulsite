@@ -14,7 +14,7 @@ const About = () => {
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
                             I am a Full Stack Developer working at{' '}
-                            <a  className="underline" href="https://wowa.ca/">Wowa Leads</a>
+                            <a  className="underline" href="https://wowa.ca/">Wowa</a>
                              .
                         </p>
                  
