@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import { Box } from '@mui/system';
 import Image from "next/image";
-import musicBot from "../public/music_bot.jpg";
-import monkeyGamePic from "../public/game.jpg";
 import weProsperPic from "../public/weprosper.png";
 
 export default function Projects() {
@@ -41,7 +39,7 @@ export default function Projects() {
                   <a href="https://github.com/abdin20/CrazyBall"><u>Super Monkey Ball Clone</u></a>
                 </h1>
                 <Image
-                  src={monkeyGamePic}
+                  src="/game.jpg"
                   alt="Super Monkey Ball Clone"
                   priority={true}
                   className="rounded-full"
@@ -62,7 +60,7 @@ export default function Projects() {
                   <a href="https://github.com/abdin20/JumboBot/tree/Dumbo"><u>Discord Music Bot</u></a>
                 </h1>
                 <Image
-                  src={musicBot}
+                  src="/music_bot.jpg"
                   alt="Discord Music Bot"
                   priority={true}
                   className="rounded-full"
