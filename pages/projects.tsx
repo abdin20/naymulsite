@@ -11,6 +11,7 @@ export default function Projects() {
           <title>Naymul Mohammed</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
+        {/* test */}
         <main className="max-w-4xl mx-auto mt-16 antialiased">
           <section className="flex flex-col items-center space-y-8">
             <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-8 md:space-y-0">
